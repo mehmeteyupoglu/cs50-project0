@@ -1,0 +1,60 @@
+.jumbotron {
+  font-size: 30px;
+  padding-left: 105px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px;
+  width: 160%;
+}
+
+.container>div {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  height: 375px;
+  text-align: left;
+  position: relative;
+  border-radius: 5px;
+}
+
+.body {
+  position: absolute;
+  top: 30%;
+}
+.button {
+  position: absolute;
+  /* margin-top: 35%; */
+  bottom: 16px;
+}
+
+#project-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#footer {
+  height: 150px;
+  margin: 85px 0 0;
+}
+
+#home-button {
+  color: black;
+}
+
+#home-button:hover {
+  color: grey;
+  transform: scale(1.125);
+}

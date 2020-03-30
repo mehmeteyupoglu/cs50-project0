@@ -1,0 +1,49 @@
+body {
+  background-color: #333;
+}
+.jumbotron {
+  font-size: 30px;
+  padding-left: 105px;
+  height: 100px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 28px;
+  padding: 30px 45px;
+  width: 160%;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#home-button {
+  color: black;
+  position: absolute;
+  right: 10%;
+}
+
+#home-button:hover {
+  color: grey;
+  transform: scale(1.125);
+}
+
+div div ul li {
+  margin: 0 10px;
+  font-size: 40px;
+  /* display: inline;
+  float: left; */
+}
+
+p[type="text"] {
+  font-size: 20px;
+  color: grey;
+  font-family: Ubuntu; 
+}
