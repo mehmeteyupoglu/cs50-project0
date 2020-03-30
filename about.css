@@ -2,6 +2,18 @@ table th {width: 10%}
 table td {width: 30%}
 table caption {font-size: 2em; caption-side: top;}
 
+@media (max-width: 768px) {
+  #about-foto {
+    margin-left: 5%;
+  }
+  body {
+    background-color: grey;
+  }
+  .table-headers {
+    color: white; 
+  }
+}
+
 .jumbotron {
   padding: 15px;
 }

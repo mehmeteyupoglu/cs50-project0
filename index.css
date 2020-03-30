@@ -19,6 +19,10 @@ section nav div ul {
   margin-right: 30px;
 }
 
+.id, #welcome, #hello {
+  text-align: center;
+}
+
 .nav-item {
   margin: 0 20px;
   font-size: 1.125rem;
@@ -33,7 +37,6 @@ section nav div ul {
 #hello {
   font-size: 100px;
   font-family: Ubuntu, sans-serif;
-  text-align: center;
   font-weight: bolder;
   margin: 50px 0;
 }
@@ -41,7 +44,6 @@ section nav div ul {
 #welcome {
   font-weight: bold;
   font-family: Gotu;
-  text-align: center;
   font-size: 40px;
   margin-top: 70px;
   line-height: 65px;
@@ -71,7 +73,5 @@ section nav div ul {
   padding: 15px;
   font-size: 15px;
 }
-
-/* //////////////////////////////////about.html///////////////////////////// */
 
 /*# sourceMappingURL=index.css.map */

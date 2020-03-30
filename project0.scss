@@ -4,7 +4,7 @@ $zero: 0;
 section {
   div {
     div {
-      img{
+      img {
         max-width: 70%;
         height: auto;
         margin-left: 90px;
@@ -13,80 +13,81 @@ section {
     }
   }
 }
-section {
-  nav {
-    a {
-      border: 1px solid white;
-      width: 40px;
-      border-radius: 10%;
-      text-align: center;
-      padding: $ten $ten;
-      margin-left: 20px;
-    }
-  }
+
+.navbar-brand {
+  border: 1px solid white;
+  width: 40px;
+  border-radius: 10%;
+  text-align: center;
+  padding: $ten $ten;
+  margin-left: 20px;
 }
 
-section {
-  nav {
-    div {
-      ul {
-        padding: $ten;
-        margin-right: 30px;
+
+  section {
+    nav {
+      div {
+        ul {
+          padding: $ten;
+          margin-right: 30px;
+        }
       }
     }
   }
-}
 
-.nav-item {
-  margin: $zero 20px;
-  font-size: 1.125rem;
-}
+  .id {
+    text-align: center;
+  }
 
-.row {
-  margin: $zero;
-  font-size: 30px;
-  width: 101%;
-}
+  .nav-item {
+    margin: $zero 20px;
+    font-size: 1.125rem;
+  }
 
-#hello {
-  font-size: 100px;
-  font-family: Ubuntu, sans-serif;
-  text-align: center;
-  font-weight: bolder;
-  margin: 50px $zero;
-}
+  .row {
+    margin: $zero;
+    font-size: 30px;
+    width: 101%;
+  }
 
-#welcome {
-  font-weight: bold;
-  font-family: Gotu;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 70px;
-  line-height: 65px;
-}
+  #hello {
+    @extend .id;
+    font-size: 100px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bolder;
+    margin: 50px $zero;
+  }
 
-#footer {
-  text-align: center;
-  font-family: Ubuntu, sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
-  height: 20%;
-}
+  #welcome {
+    @extend .id;
+    font-weight: bold;
+    font-family: Gotu;
+    font-size: 40px;
+    margin-top: 70px;
+    line-height: 65px;
+  }
 
-.social-icon {
-  color: black;
-  margin: $ten 5px;
-}
+  #footer {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    height: 20%;
+  }
 
-.social-icon:hover {
-  text-decoration: none;
-  transform: scale(1.2s);
-}
+  .social-icon {
+    color: black;
+    margin: $ten 5px;
+  }
 
-#copyright {
-  font-weight: lighter;
-  text-align: center;
-  padding: 15px;
-  font-size: 15px;
-}
-/* //////////////////////////////////about.html///////////////////////////// */
+  .social-icon:hover {
+    text-decoration: none;
+    transform: scale(1.2s);
+  }
+
+  #copyright {
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+  }
