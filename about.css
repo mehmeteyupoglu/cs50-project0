@@ -5,16 +5,18 @@ table caption {font-size: 2em; caption-side: top;}
 .jumbotron {
   padding: 15px;
 }
+a {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
 
 #about2 {
   font-size: 35px;
   margin-top: 50px;
-}
-
-@media (max-width: 499px) {
-  body {
-    background-color: blue; 
-  }
 }
 
 #about-foto {

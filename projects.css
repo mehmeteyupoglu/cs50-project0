@@ -49,3 +49,12 @@ a:hover {
   height: 150px;
   margin: 85px 0 0;
 }
+
+#home-button {
+  color: black;
+}
+
+#home-button:hover {
+  color: grey;
+  transform: scale(1.125);
+}
